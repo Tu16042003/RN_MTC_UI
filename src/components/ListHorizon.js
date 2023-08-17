@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         marginBottom: 12,
-        width: width-10,
+        width: width-20,
         borderRadius: 10,
         elevation: 1, // Độ nâng của shadow
         shadowColor: '#FF0000', // Màu của shadow
@@ -113,8 +113,8 @@ const styles = StyleSheet.create({
         },
       },
       itemImage: {
-        width: 84,
-        height: 84,
+        width: 64,
+        height: 64,
         marginRight: 12,
         borderRadius: 8
       },

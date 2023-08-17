@@ -22,9 +22,14 @@ const Home = () => {
         <View >
           <FlatListExample />
         </View>
+        <TouchableOpacity style={styles.item}>
+        <Text style={styles.Title}>Mới nhất</Text>
+        <Image style={styles.imgRight} source={require('../../assets/images/ic_chevron_right.png')} />
+        </TouchableOpacity>
         <ItemHorizon/>
-        <TouchableOpacity >
-        <Text style={styles.Title}>Danh Sách Truyện</Text>
+        <TouchableOpacity style={styles.item}>
+        <Text style={styles.Title}>Thịnh hành</Text>
+        <Image style={styles.imgRight} source={require('../../assets/images/ic_chevron_right.png')} />
         </TouchableOpacity>
         <ListHorizon/>
       </ScrollView>
@@ -38,10 +43,19 @@ const styles = StyleSheet.create({
     backgroundColor:Colors.White
 
   },
+  item: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center'
+  },
   Title: {
     paddingStart: 20,
     paddingEnd: 20,
-    ...typography.title
+    ...typography.tieude
+  },
+  imgRight: {
+    width: 25,
+    height: 25
   }
   
 });

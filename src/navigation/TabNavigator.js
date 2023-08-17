@@ -5,6 +5,7 @@ import Home from '../screens/Home';
 import Profile from '../screens/ProfileScreen';
 import NotificationScreen from '../screens/NotificationScreen';
 import StoryScreen from '../screens/StoryScreen';
+import Colors from '../const/Colors';
 
 const Tab = createBottomTabNavigator();
 const TabNavigator = () => {
@@ -29,7 +30,7 @@ const TabNavigator = () => {
           }
           return null;
         },
-        tabBarActiveTintColor: 'tomato',
+        tabBarActiveTintColor: Colors.Black,
         // tabBarShowLabel: false,
         headerShown: false,
         tabBarStyle: {

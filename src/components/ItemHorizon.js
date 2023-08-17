@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         padding: 10,
-        backgroundColor: Colors.CornflowerBlue,
+        backgroundColor: Colors.White,
     },
     imageList: {
         flexDirection: 'row',
@@ -115,8 +115,8 @@ const styles = StyleSheet.create({
         marginRight: 8,
     },
     image: {
-        width: 80,
-        height: 100,
+        width: 50,
+        height: 60,
         resizeMode: 'cover',
         borderRadius: 8,
         borderWidth: 1,
@@ -128,8 +128,8 @@ const styles = StyleSheet.create({
         overflow: "hidden"
     },
     selectedImage: {
-        width: 150,
-        height: 150,
+        width: 140,
+        height: 160,
         borderRadius: 8,
         borderWidth: 1,
         borderColor: Colors.WhiteNight,
@@ -146,7 +146,8 @@ const styles = StyleSheet.create({
     button: {
         backgroundColor: Colors.GreenDark,
         padding: 8,
-        borderRadius: 8,
+        borderRadius: 20,
+        alignItems: 'center',
     },
     buttonText: {
         color: 'white',

@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: 'white',
-    borderRadius: 10,
+    borderRadius: 20,
     margin: 10,
     padding: 10,
     elevation: 4,
